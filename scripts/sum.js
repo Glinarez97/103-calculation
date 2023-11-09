@@ -24,11 +24,10 @@ function mult(){
 }
 
 function temp(){
-    let f = prompt("Enter fahrenheit value:");
-    let c = prompt("Enter celcius value:");
-
+    let tempature = prompt("Enter fahrenheit value:");
     let f;
-    f= ((c * 9) / 5 + 32);
+
+    f= ((tempature * 9) / 5 + 32);
     
     console.log(f);
 }
